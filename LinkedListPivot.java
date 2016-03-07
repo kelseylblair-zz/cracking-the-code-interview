@@ -1,3 +1,5 @@
+//cracking the coding interview, problem 2.4
+
 import java.util.LinkedList;
 
 public class LinkedListPivot {

@@ -1,3 +1,5 @@
+//cracking the coding interview, problem 1.8
+
 public class RotatedStringTester {
 
     // tests whether s1 is a substring of s2

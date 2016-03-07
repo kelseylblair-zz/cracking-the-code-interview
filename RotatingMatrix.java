@@ -1,3 +1,5 @@
+// cracking the coding interview, problem 1.6
+
 import java.awt.Color;
 
 public class RotatingMatrix{
