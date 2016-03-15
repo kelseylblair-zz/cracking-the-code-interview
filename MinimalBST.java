@@ -32,7 +32,6 @@ public class MinimalBST {
 
         if (low >= high)
             return;
-        System.out.println("low = " + low + " high = " + high + " median = " + median);
         add(nums[median]);
         addMedian(low, median);
         addMedian(median + 1, high);
@@ -49,7 +48,6 @@ public class MinimalBST {
                     b = b.left;
                 else {
                     b.left = new TreeNode(value, b);
-                    System.out.println("added  " + value);
                     break;
                 }
             else
@@ -57,7 +55,6 @@ public class MinimalBST {
                     b = b.right;
                 else {
                     b.right = new TreeNode(value, b);
-                    System.out.println("added " + value);
                     break;
                 }
         }
